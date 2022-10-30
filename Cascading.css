@@ -1,0 +1,29 @@
+#R{
+    color:brown;
+}
+#Q{
+    color:black;
+}
+
+body{
+    background-color:white;
+}
+p{
+    color:azure;
+    font-size: xx-large;
+}
+.c1{
+    color:purple;
+}
+.c2{
+    color:maroon;
+}
+div p{
+    color:greenyellow;
+}
+div > p{
+    color:aqua;
+}
+div section p{
+    color:blueviolet;
+}

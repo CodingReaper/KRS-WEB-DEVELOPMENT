@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Cascading.css">
 </head>
 
 <body>
@@ -40,20 +41,74 @@
         <dt>Ashu</dt>
         <dd>Is a Good Man</dd>
     </dl> -->
+    
+    <h1>Jhk</h1>
+    <p>Ashu</p>
     <form action="">
-        <label for="name"><b>UserName:</b></label>
-        <input type="text" id="name">
-        <br>
-        <br>
-        <label for="passwords"><b>Password:</b></label>
-        <input type="password" id="passwords">
-        <br><br>
-        <b>Gender:</b>
-        <br>
-        <input type="radio" name="gender"/>Male<br>
-        <input type="radio" name="gender"/>Female<br>
-        <input type="radio" name="gender"/>Other
+        <fieldset>
+            <legend><b>Personal Details</b></legend>
+            <label for="name"><b>UserName:</b></label>
+            <input type="text" id="name" placeholder="Enter Your Fullname">
+            <br>
+            <br>
+
+            <label for="passwords"><b>Password:</b></label>
+            <input type="password" id="passwords" placeholder="Enter Password" required>
+            <br><br>
+
+            <b>Gender:</b>
+            <br>
+            <input type="radio" name="gender" />Male<br>
+            <input type="radio" name="gender" />Female<br>
+            <input type="radio" name="gender" />Other<br><br>
+
+            <b>Qualifications:</b>
+            <br>
+            <input type="checkbox" name="education" />Grade 10<br>
+            <input type="checkbox" name="education" />Grade 12<br>
+            <input type="checkbox" name="education" />Graduate<br><br>
+
+            <label for="Food"><b>Favourite Food:&nbsp</b></label>
+            <select id="Food">
+                <option value="1">Indian</option>
+                <option value="2">Chinese</option>
+                <option value="3">Thai</option>
+            </select><br><br>
+
+            <label for="addr"><b>Address:</b></label>
+            <textarea id="addr" rows="3" cols="3" placeholder="Enter Address Here" required></textarea><br><br><br>
+            <button type="submit" style="color:white;background-color: blue;" onclick="alert('Warning')">Save
+                Changes&nbsp&nbsp</button>
+            <button type="reset" onclick="alert('Data Would BE')">Reset Changes</button>
+        </fieldset>
     </form>
+    <br><br>
+    <table border="5">
+        <tr bgcolor="red">
+            <th colspan="2">Vegetables</th>
+            <th>Chocolates</th>
+            <th>Price</th>
+        </tr>
+        <tr bgcolor="cyan">
+            <td rowspan="2">Ginger</td>
+            <td>Apple</td>
+            <td>Dairy Milk</td>
+        </tr>
+        <tr bgcolor="cyan">
+            <td>hgfgb</td>
+            <td>Banana</td>
+            <td>5 star</td>
+            <td>6 star
+
+
+            </td>
+        </tr>
+        <tr bgcolor="cyan">
+            <td>POtato</td>
+            <td>Grapes</td>
+            <td>silk</td>
+        </tr>
+    </table>
 </body>
 
 </html>

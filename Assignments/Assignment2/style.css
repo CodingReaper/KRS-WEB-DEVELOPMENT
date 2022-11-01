@@ -1,0 +1,81 @@
+body{
+    background-color:#181818;
+}
+.A>img{
+    position: relative;
+    left: 146px;
+}
+#o{
+    color: white;
+    position:relative;
+    left:294px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#pa{
+    color: white;
+    position:relative;
+    left:434px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#Ab{
+    color: white;
+    position:relative;
+    left:574px;
+    font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#Co{
+    color: white;
+    position:relative;
+    left:714px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#ty{
+    position: relative;
+    left:854px;
+    background-color: #181818;
+    color: white;
+    border:1px solid white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 134px;
+    height: 40px;
+    font-size: medium;
+}
+
+#ui{
+    position:relative;
+    color:white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 100px;
+    text-align: center;
+    line-height: 105px;
+    top:22px;
+}
+
+#C{
+    position:relative;
+    color:white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 19px;
+    text-align: center;
+    line-height: 28px;
+    bottom: 10px;
+}
+
+#lmnb{
+    position:relative;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    display:block;
+    margin: auto;
+    background-color:#4452fe;
+    height: 50px;
+    width: 196px;
+    border: 0px;
+    font-size: larger;
+    color: white;
+    top:60px;
+    right: 88px;
+}
